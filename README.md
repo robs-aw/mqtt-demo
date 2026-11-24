@@ -1,6 +1,6 @@
 # MQTT Demo
 
-A lightweight MQTT telemetry simulation for demonstrating real-time data ingestion, storage, and analysis.
+A Lightweight MQTT telemetry simulation for demonstrating real-time data ingestion, storage, and analysis.
 
 This project simulates multiple sensors publishing cumulative readings to an MQTT broker. A subscriber consumes the messages, writes them to JSON Lines (`.jsonl`) files, and the resulting data can be explored using DuckDB, Pandas, and Jupyter notebooks.
 
